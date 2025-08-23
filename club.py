@@ -8,7 +8,18 @@ def addClub():
         roll = int(input("Roll No : "))
         name_m = input("Name : ")
         members.add((roll,name_m))
-    club[name]= members
+    club[name] = members
     print("Club added")
 
-addClub()
+def addMember():
+    club = input("Enter club name")
+    if club not in club:
+        print("Club not found")
+        return
+    roll = int(input("Enter roll num "))
+    name_m = input("Enter member name ")
+    club[club].add((roll,name_m))
+    print("Member added")
+
+def commonMembers():
+    

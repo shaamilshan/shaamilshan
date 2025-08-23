@@ -1,12 +1,5 @@
 def emojiReplacer(sentence):
-    emoji = {"happy" : "😀",
-                 "sad" : "🥺",
-                 "angry" : "😤",
-                 "dead" : "💀",
-                 "love" : "❤️",
-                 "cool" : "😎",
-                 "raining" : "⛈️",
-                 }
+    emoji = {"happy" : "😀", "sad" : "🥺","angry" : "😤", "dead" : "💀", "love" : "❤️", "cool" : "😎", "raining" : "⛈️",}
     
     for key,value in emoji.items():
         sentence = sentence.replace(key,value)
