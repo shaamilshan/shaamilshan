@@ -16,3 +16,4 @@ print(df.shape)
 
 print(df.iloc[0])
 print(df.iloc[:,0:1])
+print(df.iloc[:,0:2])
