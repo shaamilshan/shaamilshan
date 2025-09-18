@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # Load dataset (replace with your dataset)
-movies = pd.read_csv('movies_dataset.csv')
+movies = pd.read_csv('tmdb_5000_movies.csv')
 
 
 # Basic preprocessing
